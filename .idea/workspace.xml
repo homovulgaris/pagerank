@@ -26,8 +26,8 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/parser/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#294#302#0" expanded="true" />
@@ -46,16 +46,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PagesParser.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PagesParser.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/parser/PagesParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45694444" vertical-offset="1592" max-vertical-offset="2312">
-              <caret line="113" column="152" selection-start-line="113" selection-start-column="152" selection-end-line="113" selection-end-column="152" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1058" max-vertical-offset="2397">
+              <caret line="73" column="37" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#462#470#0" expanded="true" />
-                <element signature="e#2191#2199#0" expanded="true" />
-                <element signature="e#3605#3617#0" expanded="true" />
+                <element signature="e#2361#2369#0" expanded="true" />
+                <element signature="e#3775#3787#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileWriter.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/parser/FileWriter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4097222" vertical-offset="113" max-vertical-offset="1581">
+              <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/src/parser/PagelinksParser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="58" />
+              <caret line="29" column="88" selection-start-line="29" selection-start-column="88" selection-end-line="29" selection-end-column="88" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#289#305#0" expanded="true" />
@@ -127,7 +139,7 @@
       <file leaf-file-name="sample-input-enwiki-latest-page.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/sample-input-enwiki-latest-page.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.16" vertical-offset="714" max-vertical-offset="1360">
+            <state vertical-scroll-proportion="-10.12" vertical-offset="665" max-vertical-offset="1360">
               <caret line="54" column="44" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="44" />
               <folding />
             </state>
@@ -157,6 +169,7 @@
         <option value="$PROJECT_DIR$/src/parser/PagelinksParser.java" />
         <option value="$PROJECT_DIR$/src/parser/Main.java" />
         <option value="$PROJECT_DIR$/src/parser/PagesParser.java" />
+        <option value="$PROJECT_DIR$/src/parser/FileWriter.java" />
       </list>
     </option>
   </component>
@@ -527,12 +540,12 @@
       <changelist id="2964ccbc-b4c1-438e-abe3-e9e8dbddb8f5" name="Default" comment="" />
       <created>1413474578054</created>
       <updated>1413474578054</updated>
-      <workItem from="1413474582207" duration="14698000" />
+      <workItem from="1413474582207" duration="17426000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14698000" />
+    <option name="totallyTimeSpent" value="17426000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -584,7 +597,21 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="19" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/parser/PagesParser.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/parser/PagesParser.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="21" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -592,17 +619,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/sample-input-enwiki-latest-page.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.16" vertical-offset="714" max-vertical-offset="1360">
-          <caret line="54" column="44" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/util/regex/Matcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18888889" vertical-offset="8432" max-vertical-offset="21590">
@@ -636,6 +652,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/sample-input-enwiki-latest-page.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.12" vertical-offset="665" max-vertical-offset="1360">
+          <caret line="54" column="44" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/parser/PagelinksModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
@@ -660,10 +687,23 @@
     <entry file="file://$PROJECT_DIR$/src/parser/PagelinksParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="58" />
+          <caret line="29" column="88" selection-start-line="29" selection-start-column="88" selection-end-line="29" selection-end-column="88" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#289#305#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parser/PagesParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1058" max-vertical-offset="2397">
+          <caret line="73" column="37" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#462#470#0" expanded="true" />
+            <element signature="e#2361#2369#0" expanded="true" />
+            <element signature="e#3775#3787#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -678,8 +718,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/parser/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#294#302#0" expanded="true" />
@@ -687,15 +727,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/parser/PagesParser.java">
+    <entry file="file://$PROJECT_DIR$/src/parser/FileWriter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45694444" vertical-offset="1592" max-vertical-offset="2312">
-          <caret line="113" column="152" selection-start-line="113" selection-start-column="152" selection-end-line="113" selection-end-column="152" />
+        <state vertical-scroll-proportion="0.4097222" vertical-offset="113" max-vertical-offset="1581">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#462#470#0" expanded="true" />
-            <element signature="e#2191#2199#0" expanded="true" />
-            <element signature="e#3605#3617#0" expanded="true" />
           </folding>
         </state>
       </provider>

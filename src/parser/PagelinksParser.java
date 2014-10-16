@@ -27,7 +27,7 @@ public class PagelinksParser extends PagesParser {
     public void printListPageLinks(List<PagelinksModel> list) {
         System.out.println("Printing parsed pagelinks>>");
         for (PagelinksModel element : list) {
-            System.out.println(element.getPlFrom() + " " + element.getPlNamespace() + " " + element.getPlTitle());
+            System.out.println(element.getPlFrom() + "," + element.getPlNamespace() + "," + element.getPlTitle());
         }
     }
 

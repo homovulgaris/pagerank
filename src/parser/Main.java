@@ -27,6 +27,15 @@ public class Main {
         List<String> singleLinePagelinks = pagelinks.createSingleLineFromEntities(inputListPagelinks);
         List<PagelinksModel> listPageLinks = pagelinks.createPageLinksModel(singleLinePagelinks);
         pagelinks.printListPageLinks(listPageLinks);
+
+
+
+        //write files
+
+        FileWriter fw = new FileWriter();
+        fw.writePagesOutputToFile("./data/test-pages-output.txt",listPage);
+        fw.writePageLinksOutputToFile("./data/test-pagelinks-output.txt",listPageLinks);
+
     }
 
 

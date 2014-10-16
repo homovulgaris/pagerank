@@ -70,6 +70,11 @@ public class PagesParser {
                 list.remove(i);
             }
         }
+        for (int i = 0; i < list.size(); i++) {
+            if (list.get(i).contains("(43664404,-1,'Contribs")) {
+                list.remove(i);
+            }
+        }
     }
 
     public List<String> createSingleLineFromEntities(List<String> input) { //creating single line based on regex
@@ -107,7 +112,7 @@ public class PagesParser {
     public void printListPages(List<PagesModel> list) {
         System.out.println("Printing parsed pages>>");
         for (PagesModel element : list) {
-            System.out.println(element.getPageId() + " " + element.getPageNameSpace() + " " + element.getPageTitle() + " " + element.getPageIsRedirect());
+            System.out.println(element.getPageId() + "," + element.getPageNameSpace() + "," + element.getPageTitle() + "," + element.getPageIsRedirect());
         }
     }
 

@@ -3,7 +3,7 @@ package parser;
 /**
  * Created by Jozef on 16.10.2014.
  */
-public class PagelinksModel {
+public class PageLinksModel {
     private int plFrom;
     private long plNamespace;
     private String plTitle;

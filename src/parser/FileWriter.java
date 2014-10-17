@@ -44,7 +44,7 @@ public class FileWriter {
         return true;
     }
 
-    public boolean writePageLinksOutputToFile(String path, List<PagelinksModel> pagelinks){
+    public boolean writePageLinksOutputToFile(String path, List<PageLinksModel> pagelinks){
         File fout = new File(path);
         FileOutputStream fos = null;
         try {
@@ -54,7 +54,7 @@ public class FileWriter {
         }
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(fos));
         int linecounter = 0;
-        for(PagelinksModel pm : pagelinks) {
+        for(PageLinksModel pm : pagelinks) {
             String line = pm.getPlFrom() + "," + pm.getPlNamespace() + "," + pm.getPlTitle().toString();
             try {
                 bw.write(line);
